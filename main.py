@@ -20,8 +20,8 @@ def convert_logit_to_probability(logit: float) -> float:
 def simulate_coin_flip(p: float) -> int:
     x = random.random()
     if x > p:
-        return 1
-    return 0
+        return 0
+    return 1
 
 
 def get_x(row_size: int, feature_size: int) -> np.array:
