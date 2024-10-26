@@ -81,5 +81,5 @@ if __name__ == "__main__":
         average_error_standard += simulation_standard(data_size)
     # This simulation suggests that SMOTE is not effective at
     # improving the estimate of the underlying coefficients
-    print("Average Error Smote:", average_error_smote / num_sim)
-    print("Average Error Sttandard:", average_error_standard / num_sim)
+    print("Average Error Smote:", average_error_smote / num_sim)  # ~52
+    print("Average Error Sttandard:", average_error_standard / num_sim)  # ~.36
